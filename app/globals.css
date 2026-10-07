@@ -1,0 +1,247 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+  Theme "Building instructions" — shadcn variables in tweakcn's ThemeStyles shape (light/dark),
+  so this block can be pasted into tweakcn.com → Import to keep tweaking visually.
+  Brick colours are LDraw/Rebrickable values: Red #C91A09, Yellow #F2CD37, Blue #0055BF, Black #05131D.
+  Light = instruction-booklet page (#DCE6EE); dark = black 18+ booklet (#141414). Contrast checked ≥ 4.5:1.
+*/
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-golos);
+  --font-heading: var(--font-rubik);
+  --font-head: var(--font-rubik);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-brick-red: var(--brick-red);
+  --color-brick-yellow: var(--brick-yellow);
+  --color-brick-blue: var(--brick-blue);
+  --color-brick-black: var(--brick-black);
+  --color-red-text: var(--red-text);
+  /* Tokens used by Bklit chart classes (tooltip panel, labels). */
+  --color-chart-tooltip-background: var(--chart-tooltip-background);
+  --color-chart-tooltip-foreground: var(--chart-tooltip-foreground);
+  --color-chart-tooltip-muted: var(--chart-tooltip-muted);
+  --color-chart-label: var(--chart-label);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+}
+
+:root {
+  --brick-red: #c91a09;
+  --brick-yellow: #f2cd37;
+  --brick-blue: #0055bf;
+  --brick-black: #05131d;
+  --red-text: #c91a09;
+  --stud-shade: rgb(27 42 52 / 0.1);
+
+  --background: #dce6ee;
+  --foreground: #1b2a34;
+  --card: #ffffff;
+  --card-foreground: #1b2a34;
+  --popover: #ffffff;
+  --popover-foreground: #1b2a34;
+  --primary: #c91a09;
+  --primary-foreground: #ffffff;
+  --secondary: #f2cd37;
+  --secondary-foreground: #1b2a34;
+  --muted: #cbd8e3;
+  --muted-foreground: #45576a;
+  --accent: #0055bf;
+  --accent-foreground: #ffffff;
+  --destructive: #c91a09;
+  --border: #1b2a34;
+  --input: #1b2a34;
+  --ring: #0055bf;
+  --chart-1: #c91a09;
+  --chart-2: #f2cd37;
+  --chart-3: #0055bf;
+  --chart-4: #1b2a34;
+  --chart-5: #a0a5a9;
+  --radius: 0.375rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1b2a34;
+  --sidebar-primary: #c91a09;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #cbd8e3;
+  --sidebar-accent-foreground: #1b2a34;
+  --sidebar-border: #1b2a34;
+  --sidebar-ring: #0055bf;
+  --chart-background: transparent;
+  --chart-foreground: #1b2a34;
+  --chart-foreground-muted: #45576a;
+  --chart-line-primary: var(--chart-1);
+  --chart-line-secondary: var(--chart-3);
+  --chart-crosshair: #0055bf;
+  --chart-grid: rgb(27 42 52 / 0.15);
+  --chart-brush-border: var(--chart-grid);
+  --chart-tooltip-background: #1b2a34;
+  --chart-tooltip-foreground: #ffffff;
+  --chart-tooltip-muted: #cbd8e3;
+  --chart-marker-background: #ffffff;
+  --chart-marker-border: #1b2a34;
+  --chart-marker-foreground: #1b2a34;
+  --chart-label: #45576a;
+  --chart-scale-01: #fbeeb8;
+  --chart-scale-02: #f6dc76;
+  --chart-scale-03: #f2cd37;
+  --chart-scale-04: #d9a90c;
+  --chart-scale-05: #a67f00;
+  --chart-scale-pattern-color: #ffffff;
+}
+
+.dark {
+  color-scheme: dark;
+  --red-text: #ff6b57;
+  --stud-shade: rgb(255 255 255 / 0.07);
+
+  --background: #141414;
+  --foreground: #f2f2f2;
+  --card: #1f1f1f;
+  --card-foreground: #f2f2f2;
+  --popover: #1f1f1f;
+  --popover-foreground: #f2f2f2;
+  --primary: #c91a09;
+  --primary-foreground: #ffffff;
+  --secondary: #f2cd37;
+  --secondary-foreground: #141414;
+  --muted: #2a2a2a;
+  --muted-foreground: #ababab;
+  --accent: #0055bf;
+  --accent-foreground: #ffffff;
+  --destructive: #ff6b57;
+  --border: #f2f2f2;
+  --input: #f2f2f2;
+  --ring: #6fa8ff;
+  --chart-4: #f2f2f2;
+  --sidebar: #1f1f1f;
+  --sidebar-foreground: #f2f2f2;
+  --sidebar-accent: #2a2a2a;
+  --sidebar-accent-foreground: #f2f2f2;
+  --sidebar-border: #f2f2f2;
+  --sidebar-ring: #6fa8ff;
+  --chart-foreground: #f2f2f2;
+  --chart-foreground-muted: #ababab;
+  --chart-crosshair: #6fa8ff;
+  --chart-grid: rgb(255 255 255 / 0.12);
+  --chart-tooltip-background: #f2f2f2;
+  --chart-tooltip-foreground: #141414;
+  --chart-tooltip-muted: #45576a;
+  --chart-marker-background: #1f1f1f;
+  --chart-marker-border: #f2f2f2;
+  --chart-marker-foreground: #f2f2f2;
+  --chart-label: #ababab;
+  --chart-scale-pattern-color: #141414;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-rubik), system-ui, sans-serif;
+    text-wrap: balance;
+  }
+  button:not(:disabled), [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  a, button, summary {
+    touch-action: manipulation;
+  }
+  :focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html { scroll-behavior: smooth; }
+  }
+}
+
+@layer components {
+  /* Instruction-booklet callout: white box with a 2px ink rule, like the sub-assembly frames in a LEGO manual. */
+  .callout {
+    background: var(--card);
+    color: var(--card-foreground);
+    border-radius: var(--radius-lg);
+    box-shadow: inset 0 0 0 2px var(--border);
+  }
+  /* Studs on a baseplate: one stud every 24px (8 mm pitch, scaled). */
+  .studs {
+    background-image: radial-gradient(circle at 50% 50%, var(--stud-shade) 0 7px, transparent 7.5px);
+    background-size: 24px 24px;
+  }
+  /* Flat 2D brick with studs on top (timeline tower). Set --c to the brick colour. */
+  .brick {
+    position: relative;
+    background: var(--c);
+    border-radius: 3px;
+    box-shadow: inset 0 -5px 0 rgb(0 0 0 / 0.22), inset 0 2px 0 rgb(255 255 255 / 0.3);
+  }
+  .brick::before {
+    content: "";
+    position: absolute;
+    inset: -6px 0 auto 0;
+    height: 6px;
+    background: radial-gradient(ellipse 7px 6px at 50% 100%, var(--c) 0 5.5px, transparent 6px);
+    background-size: 24px 6px;
+    background-position: 0 0;
+  }
+  /* Hero bricks start hidden only when JS will animate them (see `motion-ok` in layout). Once the hero
+     script takes over it adds `.duck-js` and controls visibility itself (step buttons); the delayed
+     animation is a safety net so the bricks never stay invisible if the script fails to load. */
+  .motion-ok .duck-svg:not(.duck-js) .duck-part {
+    opacity: 0;
+    animation: duck-fallback 0s 6s forwards;
+  }
+  @keyframes duck-fallback { to { opacity: 1; } }
+  .step-num {
+    font-family: var(--font-rubik), system-ui, sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+}

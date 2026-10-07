@@ -1,0 +1,808 @@
+{
+ "sources": {
+  "wiki_lego_group": {
+   "title": "The Lego Group",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/The_Lego_Group",
+   "raw": "The_Lego_Group.txt"
+  },
+  "wiki_lego": {
+   "title": "Lego",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego",
+   "raw": "Lego.txt"
+  },
+  "wiki_history": {
+   "title": "History of Lego",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_Lego",
+   "raw": "History_of_Lego.txt"
+  },
+  "wiki_ole": {
+   "title": "Ole Kirk Christiansen",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Ole_Kirk_Christiansen",
+   "raw": "Ole_Kirk_Christiansen.txt"
+  },
+  "wiki_godtfred": {
+   "title": "Godtfred Kirk Christiansen",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Godtfred_Kirk_Christiansen",
+   "raw": "Godtfred_Kirk_Christiansen.txt"
+  },
+  "wiki_kjeld": {
+   "title": "Kjeld Kirk Kristiansen",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kjeld_Kirk_Kristiansen",
+   "raw": "Kjeld_Kirk_Kristiansen.txt"
+  },
+  "wiki_niels": {
+   "title": "Niels B. Christiansen",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Niels_B._Christiansen",
+   "raw": "Niels_B._Christiansen.txt"
+  },
+  "wiki_kirkbi": {
+   "title": "Kirkbi",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kirkbi",
+   "raw": "Kirkbi.txt"
+  },
+  "wiki_kiddicraft": {
+   "title": "Kiddicraft",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Kiddicraft",
+   "raw": "Kiddicraft.txt"
+  },
+  "wiki_minifigure": {
+   "title": "Lego minifigure",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego_minifigure",
+   "raw": "Lego_minifigure.txt"
+  },
+  "wiki_duplo": {
+   "title": "Lego Duplo",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego_Duplo",
+   "raw": "Lego_Duplo.txt"
+  },
+  "wiki_technic": {
+   "title": "Lego Technic",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego_Technic",
+   "raw": "Lego_Technic.txt"
+  },
+  "wiki_town": {
+   "title": "Lego Town",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego_Town",
+   "raw": "Lego_Town.txt"
+  },
+  "wiki_starwars": {
+   "title": "Lego Star Wars",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego_Star_Wars",
+   "raw": "Lego_Star_Wars.txt"
+  },
+  "wiki_ideas": {
+   "title": "Lego Ideas",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego_Ideas",
+   "raw": "Lego_Ideas.txt"
+  },
+  "wiki_art": {
+   "title": "Lego Art",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego_Art",
+   "raw": "Lego_Art.txt"
+  },
+  "wiki_themes": {
+   "title": "List of Lego themes",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_Lego_themes",
+   "raw": "List_of_Lego_themes.txt"
+  },
+  "wiki_sawaya": {
+   "title": "Nathan Sawaya",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nathan_Sawaya",
+   "raw": "Nathan_Sawaya.txt"
+  },
+  "wiki_billund": {
+   "title": "Legoland Billund Resort",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Legoland_Billund_Resort",
+   "raw": "Legoland_Billund_Resort.txt"
+  },
+  "wiki_fortnite": {
+   "title": "Lego Fortnite",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lego_Fortnite",
+   "raw": "Lego_Fortnite.txt"
+  },
+  "lego_results_2025": {
+   "title": "The LEGO Group delivers record results in 2025 (press release, 10 March 2026)",
+   "publisher": "LEGO Group",
+   "url": "https://www.lego.com/en-us/aboutus/news/2026/march/the-lego-group-delivers-record-results-in-2025-driven-by-strong-brand-and-innovative-portfolio",
+   "raw": "web_lego_results_2025.txt"
+  },
+  "lego_highlights_2025": {
+   "title": "The LEGO Group 2025 Financial Highlights (PDF)",
+   "publisher": "LEGO Group",
+   "url": "https://www.lego.com/cdn/cs/aboutus/assets/bltfcc5213b1a38d85b/2025_Financial_Highlights.pdf",
+   "raw": "web_lego_highlights_2025.txt"
+  },
+  "lego_board_tkk": {
+   "title": "Board of Directors: Thomas Kirk Kristiansen",
+   "publisher": "LEGO Group",
+   "url": "https://www.lego.com/en-us/aboutus/lego-group/management/board-of-directors/Thomas-Kirk-Kristiansen",
+   "raw": "web_lego_board_tkk.txt"
+  },
+  "ap_shanghai": {
+   "title": "China's first Legoland opens to visitors in Shanghai (6 July 2025)",
+   "publisher": "Associated Press via NBC",
+   "url": "https://www.nbcwashington.com/entertainment/entertainment-news/china-first-legoland-opens-shanghai/3951100/",
+   "raw": "web_legoland_shanghai_ap.txt"
+  },
+  "rb_sagrada": {
+   "title": "LEGO Architecture Sagrada Família revealed: highest part count ever (4 June 2026)",
+   "publisher": "The Rambling Brick",
+   "url": "https://ramblingbrick.com/2026/06/04/lego-architecture-sagrada-familia-revealed-highest-part-count-ever/",
+   "raw": "web_sagrada_ramblingbrick.txt"
+  },
+  "brickset_largest": {
+   "title": "35 Largest LEGO Sets of All Time",
+   "publisher": "Brickset",
+   "url": "https://brickset.com/sets/list-15064",
+   "raw": "web_brickset_largest.txt"
+  },
+  "brickset_21318": {
+   "title": "21318 Tree House",
+   "publisher": "Brickset",
+   "url": "https://brickset.com/sets/21318-1/Tree-House",
+   "raw": "web_brickset_21318.txt"
+  },
+  "brickset_21309": {
+   "title": "21309 NASA Apollo Saturn V",
+   "publisher": "Brickset",
+   "url": "https://brickset.com/sets/21309-1/NASA-Apollo-Saturn-V",
+   "raw": "web_brickset_21309.txt"
+  },
+  "brickset_10280": {
+   "title": "10280 Flower Bouquet",
+   "publisher": "Brickset",
+   "url": "https://brickset.com/sets/10280-1/Flower-Bouquet",
+   "raw": "web_brickset_10280.txt"
+  },
+  "wiki_libera": {
+   "title": "Zbigniew Libera",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zbigniew_Libera",
+   "raw": "Zbigniew_Libera.txt"
+  },
+  "jc_libera": {
+   "title": "Lego concentration camp sold to Polish museum",
+   "publisher": "The Jewish Chronicle",
+   "url": "https://www.thejc.com/news/world/lego-concentration-camp-sold-to-polish-museum-ksxvd3gk",
+   "raw": "web_jc_libera.txt"
+  }
+ },
+ "facts": [
+  {
+   "id": "founded",
+   "section": "bio",
+   "ru": "Компанию основал Оле Кирк Кристиансен в 1932 году.",
+   "source": "wiki_lego_group",
+   "quote": "The company was founded in 1932 by Ole Kirk Christiansen"
+  },
+  {
+   "id": "billund",
+   "section": "bio",
+   "ru": "Штаб-квартира — в Биллунне, Дания; компания частная.",
+   "source": "wiki_lego",
+   "quote": "a privately held company based in Billund, Denmark"
+  },
+  {
+   "id": "carpenter",
+   "section": "bio",
+   "ru": "Плотник Кристиансен осел в Биллунне в 1916 году и купил столярную мастерскую.",
+   "source": "wiki_ole",
+   "quote": "In 1916, Christiansen returned to Denmark and settled in Billund. He bought a carpentry shop"
+  },
+  {
+   "id": "duck",
+   "section": "first",
+   "ru": "К 1935 году среди деревянных игрушек были животные, включая утку на колёсиках.",
+   "source": "wiki_ole",
+   "quote": "By 1935, the toy range included a variety of animals, including a pull-along wooden duck, which has since seen numerous variations"
+  },
+  {
+   "id": "name-1934",
+   "section": "bio",
+   "ru": "В 1934 году компания официально получила имя LEGO.",
+   "source": "wiki_ole",
+   "quote": "By 1934, he had officially named the company Lego"
+  },
+  {
+   "id": "leg-godt",
+   "section": "bio",
+   "ru": "LEGO — от датского «leg godt», «играй хорошо».",
+   "source": "wiki_lego_group",
+   "quote": "The name Lego is derived from the Danish phrase leg godt, meaning \"play well\""
+  },
+  {
+   "id": "latin",
+   "section": "bio",
+   "ru": "По-латыни «lego» значит в том числе «я собираю».",
+   "source": "wiki_lego_group",
+   "quote": "the name also means in Latin either \"I collect\""
+  },
+  {
+   "id": "fire-1924",
+   "section": "bio",
+   "ru": "В 1924 году маленькие Готфрид и Карл Георг случайно сожгли мастерскую.",
+   "source": "wiki_godtfred",
+   "quote": "In 1924, at the age of four, Godtfred and his brother Karl Georg accidentally caused a fire"
+  },
+  {
+   "id": "plastic-1947",
+   "section": "first",
+   "ru": "В 1947 году купили первую машину для литья пластика под давлением.",
+   "source": "wiki_ole",
+   "quote": "after the acquisition of a plastic moulding injection machine in 1947"
+  },
+  {
+   "id": "godtfred-1958",
+   "section": "bio",
+   "ru": "После смерти Оле Кирка в 1958 году компанию возглавил сын Готфрид.",
+   "source": "wiki_ole",
+   "quote": "Following his death in 1958, the company's management was handed over to his son, Godtfred"
+  },
+  {
+   "id": "fire-1960",
+   "section": "bio",
+   "ru": "4 февраля 1960 года сгорел цех деревянных игрушек; на следующий день Готфрид решил делать только пластиковые кирпичики.",
+   "source": "wiki_godtfred",
+   "quote": "On 4 February 1960, the company suffered a major setback when a fire burned the woodworking factory to the ground. The following day, Godtfred made the decision to focus on producing plastic bricks"
+  },
+  {
+   "id": "kjeld",
+   "section": "bio",
+   "ru": "Кьельд Кирк Кристиансен руководил LEGO Group с 1979 по 2004 год.",
+   "source": "wiki_kjeld",
+   "quote": "president and chief executive officer of the Lego Group from 1979 to 2004"
+  },
+  {
+   "id": "kjeld-themes",
+   "section": "bio",
+   "ru": "При Кьельде появились тематические серии, минифигурки, LEGO.com, Mindstorms и лицензии.",
+   "source": "wiki_kjeld",
+   "quote": "He introduced themes, minifigures, LEGO.com, Lego Mindstorms and licensed properties"
+  },
+  {
+   "id": "kirkbi-1995",
+   "section": "bio",
+   "ru": "1 апреля 1995 года семья создала инвестиционную компанию KIRKBI.",
+   "source": "wiki_history",
+   "quote": "On April 1, 1995, Lego's ruling Cristiansen/Kristiansen family would establish the Kirkbi investment firm"
+  },
+  {
+   "id": "loss-1998",
+   "section": "bio",
+   "ru": "1998 год — первый в истории убыток компании.",
+   "source": "wiki_history",
+   "quote": "In 1998, Lego posted its first-ever loss"
+  },
+  {
+   "id": "loss-2004",
+   "section": "bio",
+   "ru": "В 2004 году убыток составил £174 млн; компания была «почти банкротом».",
+   "source": "wiki_history",
+   "quote": "In 2004, Lego posted a loss of £174 million, with the executive vice-president of marketing, Mads Nipper later describing the company as having been \"almost bankrupt\""
+  },
+  {
+   "id": "knudstorp",
+   "section": "bio",
+   "ru": "В 2004 году CEO стал Йорген Виг Кнудсторп — первый руководитель не из семьи.",
+   "source": "wiki_history",
+   "quote": "appointed Jørgen Vig Knudstorp, the first non-family CEO"
+  },
+  {
+   "id": "parks-sold",
+   "section": "bio",
+   "ru": "В рамках спасения четыре парка Legoland продали Merlin Entertainments.",
+   "source": "wiki_history",
+   "quote": "The company sold the four Legoland parks to theme-park operators Merlin Entertainments"
+  },
+  {
+   "id": "profit-2005",
+   "section": "bio",
+   "ru": "Уже в 2005 году — прибыль 702 млн датских крон.",
+   "source": "wiki_lego_group",
+   "quote": "returned a profit of kr. 702 million"
+  },
+  {
+   "id": "niels",
+   "section": "bio",
+   "ru": "С октября 2017 года CEO — Нильс Б. Кристиансен.",
+   "source": "wiki_niels",
+   "quote": "In August 2017, Lego announced that Christiansen would take over as chief executive officer in October"
+  },
+  {
+   "id": "thomas",
+   "section": "bio",
+   "ru": "Председатель совета директоров — Томас Кирк Кристиансен, четвёртое поколение семьи.",
+   "source": "lego_board_tkk",
+   "quote": "represents the most active owner in the fourth generation of the owner family. He is Chair of the Board of LEGO A/S"
+  },
+  {
+   "id": "ownership",
+   "section": "bio",
+   "ru": "KIRKBI (семья Кристиансен) владеет 75% LEGO Group.",
+   "source": "wiki_kirkbi",
+   "quote": "It owns 75% of The Lego Group"
+  },
+  {
+   "id": "kiddicraft",
+   "section": "first",
+   "ru": "Прообраз — самозапирающиеся кубики британской Kiddicraft (Хилари Пейдж).",
+   "source": "wiki_kiddicraft",
+   "quote": "Ole Kirk Christiansen and his son Godtfred became aware of the Kiddicraft brick"
+  },
+  {
+   "id": "abb-1949",
+   "section": "first",
+   "ru": "В 1949 году LEGO начала выпускать «Automatic Binding Bricks».",
+   "source": "wiki_history",
+   "quote": "In 1949, the Lego Group began producing similar bricks, calling them \"Automatic Binding Bricks.\""
+  },
+  {
+   "id": "acetate",
+   "section": "first",
+   "ru": "Первые кирпичики делали из ацетата целлюлозы.",
+   "source": "wiki_history",
+   "quote": "Lego bricks, then manufactured from cellulose acetate"
+  },
+  {
+   "id": "town-plan",
+   "section": "first",
+   "ru": "1955 — «Town Plan», первая «система игры» из пластиковых кирпичиков.",
+   "source": "wiki_history",
+   "quote": "1955, Lego released the \"Town Plan\" using plastic Lego building bricks as the system"
+  },
+  {
+   "id": "patent-1958",
+   "section": "first",
+   "ru": "28 января 1958 года в Дании подана заявка на патент современного кирпичика (шип + трубка).",
+   "source": "wiki_lego",
+   "quote": "A patent application for the modern Lego brick design was filed in Denmark on 28 January 1958"
+  },
+  {
+   "id": "abs",
+   "section": "first",
+   "ru": "Через пять лет, в 1963-м, материал сменили на ABS-пластик.",
+   "source": "wiki_lego",
+   "quote": "ABS subsequently replaced cellulose acetate as the manufacturing material five years later"
+  },
+  {
+   "id": "compat",
+   "section": "first",
+   "ru": "Кирпичики 1958 года до сих пор совместимы с сегодняшними.",
+   "source": "wiki_lego",
+   "quote": "bricks from 1958 still interlock with those made presently"
+  },
+  {
+   "id": "combos",
+   "section": "first",
+   "ru": "Шесть кирпичиков 2×4 можно соединить 915 103 765 способами.",
+   "source": "wiki_lego",
+   "quote": "Six bricks of 2 × 4 studs can be combined in 915,103,765 ways"
+  },
+  {
+   "id": "legoland-1968",
+   "section": "first",
+   "ru": "7 июня 1968 года в Биллунне открылся первый Legoland.",
+   "source": "wiki_history",
+   "quote": "On 7 June 1968, the first Legoland Park was opened in Billund"
+  },
+  {
+   "id": "legoland-visitors",
+   "section": "first",
+   "ru": "За первый сезон его посетили 625 000 человек.",
+   "source": "wiki_billund",
+   "quote": "625,000 visitors in its first abbreviated season"
+  },
+  {
+   "id": "duplo-1969",
+   "section": "first",
+   "ru": "1969 — запуск DUPLO; позже в линейке появились фигурки, животные, машины, дома и поезда.",
+   "source": "wiki_duplo",
+   "quote": "Initially launched in 1969, the Duplo range has expanded since then to include sets with figures, animals, cars, houses, and trains"
+  },
+  {
+   "id": "technic-1977",
+   "section": "first",
+   "ru": "1977 — появилась линейка Technic.",
+   "source": "wiki_technic",
+   "quote": "Lego Technic was first introduced in 1977"
+  },
+  {
+   "id": "technic-name",
+   "section": "first",
+   "ru": "Сначала серия называлась Expert Builder (или Technical Sets), имя Technic — с 1982 года.",
+   "source": "wiki_technic",
+   "quote": "The theme was introduced either as Expert Builder or Technical Sets (depending on market) in 1977, and was renamed LEGO Technic in 1982"
+  },
+  {
+   "id": "minifig-1978",
+   "section": "first",
+   "ru": "1978 — первые минифигурки (дизайнер Йенс Нюгор Кнудсен) в наборах Castle, Space и Town.",
+   "source": "wiki_minifigure",
+   "quote": "The first modern minifigures were released in 1978, included in Castle, Space, and Town sets. These were designed by Jens Nygaard Knudsen, who had come up with the idea for having the torsos, legs, and arm pieces interchangeable"
+  },
+  {
+   "id": "minifig-height",
+   "section": "first",
+   "ru": "Рост минифигурки — 4 см.",
+   "source": "wiki_minifigure",
+   "quote": "The height of a typical minifigure is 4 centimetres"
+  },
+  {
+   "id": "past-present-future",
+   "section": "first",
+   "ru": "Три первые темы: прошлое (Castle), настоящее (Town), будущее (Space).",
+   "source": "wiki_town",
+   "quote": "each of the three themes representing the 'Past' (Castle), 'Present' (Town) and 'Future' (Space)"
+  },
+  {
+   "id": "revenue-2025",
+   "section": "now",
+   "ru": "Выручка 2025 года — 83,5 млрд датских крон (+12%).",
+   "source": "lego_results_2025",
+   "quote": "Revenue increased 12% to DKK 83.5 billion"
+  },
+  {
+   "id": "op-profit-2025",
+   "section": "now",
+   "ru": "Операционная прибыль — 22,0 млрд крон (+18%).",
+   "source": "lego_results_2025",
+   "quote": "Operating profit grew 18% to DKK 22.0 billion"
+  },
+  {
+   "id": "net-profit-2025",
+   "section": "now",
+   "ru": "Чистая прибыль — 16,7 млрд крон.",
+   "source": "lego_highlights_2025",
+   "quote": "Net profit 16,710 13,792 13,109 13,782 13,285"
+  },
+  {
+   "id": "revenue-series",
+   "section": "now",
+   "ru": "Выручка, млн DKK: 2021 — 55 294, 2022 — 64 647, 2023 — 65 914, 2024 — 74 325, 2025 — 83 530.",
+   "source": "lego_highlights_2025",
+   "quote": "Revenue 83,530 74,325 65,914 64,647 55,294"
+  },
+  {
+   "id": "market",
+   "section": "now",
+   "ru": "Потребительские продажи +16%; LEGO растёт более чем вдвое быстрее рынка игрушек.",
+   "source": "lego_results_2025",
+   "quote": "Consumer sales grew 16% as more children than ever received a LEGO product. Gained market share , growing more than twice as fast as the toy market"
+  },
+  {
+   "id": "largest-toy",
+   "section": "now",
+   "ru": "LEGO — крупнейший в мире производитель игрушек по продажам.",
+   "source": "wiki_lego",
+   "quote": "Lego is the largest toy manufacturer in the world by sales"
+  },
+  {
+   "id": "headcount",
+   "section": "now",
+   "ru": "На конец 2025 года — 33 801 сотрудник.",
+   "source": "lego_highlights_2025",
+   "quote": "Headcount end of year 33,801"
+  },
+  {
+   "id": "factories",
+   "section": "now",
+   "ru": "Литьё кирпичиков: Дания, Венгрия, Мексика, Китай, Вьетнам и США; упаковка также в Чехии.",
+   "source": "wiki_lego",
+   "quote": "Moulding is done in Denmark, Hungary, Mexico, China, Vietnam and the United States. Brick decorations and packaging are done at plants in the former three countries and in the Czech Republic"
+  },
+  {
+   "id": "vietnam",
+   "section": "now",
+   "ru": "В 2025 году открыт завод во Вьетнаме за $1 млрд, работающий на чистой энергии.",
+   "source": "wiki_lego_group",
+   "quote": "In 2025, Lego opened up a $1 billion factory in Vietnam that plans to run entirely on clean energy"
+  },
+  {
+   "id": "virginia",
+   "section": "now",
+   "ru": "Строится фабрика и распределительный центр в Вирджинии (США).",
+   "source": "lego_results_2025",
+   "quote": "made progress on a factory and regional distribution centre in Virginia, U.S."
+  },
+  {
+   "id": "bricks-per-year",
+   "section": "now",
+   "ru": "Около 36 млрд элементов в год — примерно 1140 в секунду.",
+   "source": "wiki_lego",
+   "quote": "Annual production of the bricks averages approximately 36 billion, or about 1140 elements per second"
+  },
+  {
+   "id": "materials",
+   "section": "now",
+   "ru": "Доля возобновляемого и переработанного сырья — 52% (33% в 2024).",
+   "source": "lego_results_2025",
+   "quote": "renewable and recycled content in the materials purchased to make LEGO® bricks to 52%, up from 33% in 2024"
+  },
+  {
+   "id": "products",
+   "section": "now",
+   "ru": "В 2025 году — более 860 продуктов, около половины новые.",
+   "source": "lego_results_2025",
+   "quote": "featuring over 860 products, around half of which were new"
+  },
+  {
+   "id": "legoland-11",
+   "section": "now",
+   "ru": "Legoland Shanghai (июль 2025) — один из 11 парков в мире; на него ушло 85 млн кирпичиков.",
+   "source": "ap_shanghai",
+   "quote": "It is one of 11 parks across the world and was built with 85 million Lego bricks"
+  },
+  {
+   "id": "discovery",
+   "section": "now",
+   "ru": "В феврале 2026 LEGO выкупила у Merlin 29 Discovery Centres в девяти странах.",
+   "source": "lego_results_2025",
+   "quote": "The acquisition was completed in February 2026 and includes 29 Centres located in nine countries"
+  },
+  {
+   "id": "fortnite",
+   "section": "now",
+   "ru": "LEGO Fortnite Odyssey (с Epic Games) — более 1 млрд игровых часов.",
+   "source": "lego_results_2025",
+   "quote": "LEGO® Fortnite Odyssey which reached over 1 billion player hours since launch"
+  },
+  {
+   "id": "fortnite-date",
+   "section": "now",
+   "ru": "LEGO Fortnite вышел 7 декабря 2023 года.",
+   "source": "wiki_fortnite",
+   "quote": "first released on December 7, 2023"
+  },
+  {
+   "id": "f1",
+   "section": "now",
+   "ru": "Партнёрство с Formula 1: первые наборы — в 2025 году.",
+   "source": "lego_results_2025",
+   "quote": "The partnership with Formula 1® attracted new builders as the first products came to market in 2025"
+  },
+  {
+   "id": "icons",
+   "section": "modern",
+   "ru": "LEGO Icons — модели для взрослых, включая модульные здания; бывшая Creator Expert.",
+   "source": "wiki_themes",
+   "quote": "Lego Icons: A Lego theme featuring more advanced models intended for older audiences. The product line includes the Modular Buildings series"
+  },
+  {
+   "id": "technic-top",
+   "section": "modern",
+   "ru": "Technic — одна из самых продаваемых линеек.",
+   "source": "wiki_technic",
+   "quote": "It is one of Lego's top-selling themes"
+  },
+  {
+   "id": "starwars-1999",
+   "section": "modern",
+   "ru": "1999 — первые лицензионные наборы: LEGO Star Wars.",
+   "source": "wiki_history",
+   "quote": "In 1999 the first Lego products featuring licensed intellectual property, i.e., not designed in-house, were Lego Star Wars"
+  },
+  {
+   "id": "ucs",
+   "section": "modern",
+   "ru": "Ultimate Collector Series — 37 крупных коллекционных моделей Star Wars с 2000 года.",
+   "source": "wiki_starwars",
+   "quote": "Lego has released 37 sets in their Ultimate Collector Series line, also known as UCS. Starting in 2000 with models of the X-Wing and TIE Interceptor"
+  },
+  {
+   "id": "botanicals",
+   "section": "modern",
+   "ru": "Ботаническая коллекция для взрослых появилась в 2021 году — например, Flower Bouquet.",
+   "source": "brickset_10280",
+   "quote": "Subtheme Botanical Collection Year released 2021"
+  },
+  {
+   "id": "botanicals-pieces",
+   "section": "modern",
+   "ru": "Flower Bouquet — 756 деталей.",
+   "source": "brickset_10280",
+   "quote": "Pieces 756"
+  },
+  {
+   "id": "art-2020",
+   "section": "modern",
+   "ru": "LEGO Art (мозаики из «точек» 1×1) — с 2020 года.",
+   "source": "wiki_art",
+   "quote": "Lego Art (stylised as LEGO Art) is a Lego theme introduced in 2020"
+  },
+  {
+   "id": "art-mosaic",
+   "section": "modern",
+   "ru": "LEGO Art — мозаики из круглых деталей 1×1.",
+   "source": "wiki_art",
+   "quote": "reproduce them in a mosaic-like format using Lego 1×1 studs"
+  },
+  {
+   "id": "sagrada",
+   "section": "modern",
+   "ru": "Рекорд по числу деталей — Sagrada Família (21065): 12 060 элементов, выход 1 ноября 2026.",
+   "source": "rb_sagrada",
+   "quote": "this build features an impressive 12,060 LEGO elements, making it the largest LEGO building set ever released, by piece count"
+  },
+  {
+   "id": "sagrada-date",
+   "section": "modern",
+   "ru": "Sagrada Família поступит в продажу 1 ноября 2026.",
+   "source": "rb_sagrada",
+   "quote": "It will be released on November 1"
+  },
+  {
+   "id": "worldmap",
+   "section": "modern",
+   "ru": "Прежний рекордсмен — World Map (31203): 11 695 деталей.",
+   "source": "brickset_largest",
+   "quote": "Pieces 11695"
+  },
+  {
+   "id": "ideas",
+   "section": "modern",
+   "ru": "LEGO Ideas (с 2008, как CUUSOO): автор одобренного проекта получает 1% роялти.",
+   "source": "wiki_ideas",
+   "quote": "with the original designer receiving 1% of the royalties. It began in 2008"
+  },
+  {
+   "id": "ideas-10000",
+   "section": "modern",
+   "ru": "Порог поддержки — 10 000 голосов.",
+   "source": "wiki_ideas",
+   "quote": "The goal of every project is to be supported by 10,000 different users"
+  },
+  {
+   "id": "saturn",
+   "section": "modern",
+   "ru": "Фан-проект Ideas: NASA Apollo Saturn V (21309, 2017).",
+   "source": "brickset_21309",
+   "quote": "Subtheme NASA Year released 2017"
+  },
+  {
+   "id": "saturn-pieces",
+   "section": "modern",
+   "ru": "Saturn V — 1969 деталей.",
+   "source": "brickset_21309",
+   "quote": "Pieces 1969"
+  },
+  {
+   "id": "treehouse",
+   "section": "modern",
+   "ru": "Фан-проект Ideas: Tree House (21318, 2019).",
+   "source": "brickset_21318",
+   "quote": "Year released 2019"
+  },
+  {
+   "id": "treehouse-pieces",
+   "section": "modern",
+   "ru": "Tree House — 3036 деталей.",
+   "source": "brickset_21318",
+   "quote": "Pieces 3036"
+  },
+  {
+   "id": "sawaya-lawyer",
+   "section": "modern",
+   "ru": "Натан Савая в 2004 году ушёл из юриспруденции, чтобы стать художником LEGO.",
+   "source": "wiki_sawaya",
+   "quote": "In 2004, Sawaya left his job as an attorney to work as a full-time Lego artist"
+  },
+  {
+   "id": "sawaya-lcp",
+   "section": "modern",
+   "ru": "Савая — официальный LEGO Certified Professional, но не сотрудник компании.",
+   "source": "wiki_sawaya",
+   "quote": "Sawaya is not an employee of the toy company. Sawaya is officially recognized by The Lego Group as a Lego Certified Professional"
+  },
+  {
+   "id": "sawaya-show",
+   "section": "modern",
+   "ru": "Выставка «The Art of the Brick» целиком посвящена LEGO как художественному материалу.",
+   "source": "wiki_sawaya",
+   "quote": "\"The Art of the Brick\" focuses exclusively on the use of Lego building blocks as an art medium"
+  },
+  {
+   "id": "libera-1996",
+   "section": "bio",
+   "ru": "В 1996 году польский художник Збигнев Либера сделал из кирпичиков LEGO работу «LEGO. Концлагерь» — модели нацистского концлагеря.",
+   "source": "wiki_libera",
+   "quote": "Libera is best known for his artwork LEGO Concentration Camp, created in 1996"
+  },
+  {
+   "id": "libera-bricks",
+   "section": "bio",
+   "ru": "Кирпичики LEGO Group дала по его просьбе о пожертвовании; компании сказали, что он построит дом или больницу.",
+   "source": "wiki_libera",
+   "quote": "According to The Lego Group, the only information they had received from Libera about his artistic intentions was that he would build either a house or a hospital using their bricks"
+  },
+  {
+   "id": "libera-boxes",
+   "section": "bio",
+   "ru": "Работа упакована в коробки, похожие на настоящие наборы, с надписью «спонсировано LEGO».",
+   "source": "wiki_libera",
+   "quote": "with the box designs including text labels reading \"This work of Zbigniew Libera has been sponsored by LEGO\""
+  },
+  {
+   "id": "libera-1997",
+   "section": "bio",
+   "ru": "24 февраля 1997 года LEGO Group назвала работу «тревожной и достойной сожаления» и отказалась признавать спонсорство.",
+   "source": "wiki_libera",
+   "quote": "On 24 February 1997, The Lego Group released an official press release on the issue, declaring that they believe Libera's work to be \"disturbing and deplorable\", and refusing to take ownership for sponsoring the artwork"
+  },
+  {
+   "id": "libera-legal",
+   "section": "bio",
+   "ru": "LEGO Group угрожала художнику судом.",
+   "source": "wiki_libera",
+   "quote": "The artwork attracted much controversy, including The Lego Group threatening legal action"
+  },
+  {
+   "id": "libera-intent",
+   "section": "bio",
+   "ru": "Либера объяснял замысел контрастом между ужасами реального мира и идеальным миром, который показывают детям.",
+   "source": "wiki_libera",
+   "quote": "the meaning behind the artwork was to highlight the contrast between the horrors of the real world, and the perfect world presented to children"
+  },
+  {
+   "id": "libera-venice",
+   "section": "modern",
+   "ru": "Куратор польского павильона Венецианской биеннале попросил не включать работу в экспозицию.",
+   "source": "wiki_libera",
+   "quote": "Stanislaw told Libera not to include LEGO Concentration Camp in the display"
+  },
+  {
+   "id": "libera-shown",
+   "section": "modern",
+   "ru": "Работу показывали в галереях по всему миру, в том числе в Еврейском музее Нью-Йорка.",
+   "source": "jc_libera",
+   "quote": "his work has since been shown in galleries around the world, including at New York's Jewish Museum"
+  },
+  {
+   "id": "libera-msn",
+   "section": "modern",
+   "ru": "В 2012 году Музей современного искусства в Варшаве купил работу у норвежского коллекционера за £45 000.",
+   "source": "jc_libera",
+   "quote": "The Lego collection has now been bought from a Norwegian collector for £45,000 by Warsaw's Museum of Modern Art"
+  },
+  {
+   "id": "libera-msn-date",
+   "section": "modern",
+   "ru": "Покупка — январь 2012 года.",
+   "source": "jc_libera",
+   "quote": "January 5, 2012"
+  },
+  {
+   "id": "libera-important",
+   "section": "modern",
+   "ru": "Музей назвал её «одной из важнейших работ современного польского искусства».",
+   "source": "jc_libera",
+   "quote": "\"one of the most important works of contemporary Polish art,\""
+  },
+  {
+   "id": "revenue-growth",
+   "section": "now",
+   "ru": "Рост выручки по годам (как отчитано): 2021 — 27%, 2022 — 17%, 2023 — 2%, 2024 — 13%, 2025 — 12%.",
+   "source": "lego_highlights_2025",
+   "quote": "Revenue growth as reported 12 13 2 17 27"
+  }
+ ]
+}
