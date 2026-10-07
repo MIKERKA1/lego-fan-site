@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: { default: "Кирпичик за кирпичиком — история LEGO", template: "%s — Кирпичик за кирпичиком" },
   description: "Фан-сайт об истории LEGO: от столярной мастерской в Биллунне 1932 года до наборов на 12 060 деталей. Каждый факт — с источником.",
   openGraph: { title: "Кирпичик за кирпичиком", description: "История LEGO как инструкция по сборке.", locale: "ru_RU", type: "website" },
+  // iOS Safari turns "915 103 765" into a tel: link before React hydrates; the mismatch makes React
+  // re-render the whole document, which wipes the `motion-ok`/`dark` classes set by bootScript.
+  formatDetection: { telephone: false, address: false, email: false },
 };
 
 export const viewport: Viewport = {

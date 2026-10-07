@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath,
   trailingSlash: true,
+  // Dev only: phones on the LAN open the dev server by IP. Without this Next blocks /_next/hmr for that
+  // origin and the page never hydrates, so every animation is stuck on its static fallback.
+  allowedDevOrigins: ["192.168.*.*", "10.*.*.*", "*.local"],
   turbopack: {
     rules: {
       "*.css": {

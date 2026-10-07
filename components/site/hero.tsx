@@ -15,6 +15,8 @@ const STEPS = [
 ];
 
 const DROP = { translateY: { from: -160, to: 0 }, opacity: { from: 0, to: 1, duration: 120, ease: "linear" }, duration: 420, ease: "outBack(1.6)" } as const;
+// Reduced motion: same step-by-step assembly, bricks fade in place instead of dropping.
+const FADE = { opacity: { from: 0, to: 1 }, duration: 260, ease: "linear" } as const;
 
 export function Hero() {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -38,7 +40,7 @@ export function Hero() {
     show(0);
     const tl = createTimeline({ defaults: { duration: 420, ease: "outBack(1.6)" } });
     [1, 2, 3].forEach((n) => {
-      tl.call(() => show(n), n === 1 ? 0 : "+=150").add(parts((s) => s === n), { ...DROP, delay: stagger(110) });
+      tl.call(() => show(n), n === 1 ? 0 : "+=150").add(parts((s) => s === n), { ...(animated ? DROP : FADE), delay: stagger(110) });
     });
     tlRef.current = tl;
   };
@@ -53,19 +55,14 @@ export function Hero() {
     const add = parts((s) => s > prev && s <= n);
     const remove = parts((s) => s > n);
     utils.set(keep, { opacity: 1, translateY: 0 }); // settle anything a paused timeline left mid-flight
-    if (!animated) {
-      utils.set(add, { opacity: 1, translateY: 0 });
-      utils.set(remove, { opacity: 0, translateY: 0 });
-      return;
-    }
-    if (remove.length) animate(remove, { opacity: 0, translateY: -60, duration: 260, ease: "in(2)", delay: stagger(40, { reversed: true }) });
-    if (add.length) animate(add, { ...DROP, delay: stagger(110) });
+    if (remove.length) animate(remove, { opacity: 0, translateY: animated ? -60 : 0, duration: 260, ease: "in(2)", delay: stagger(40, { reversed: true }) });
+    if (add.length) animate(add, { ...(animated ? DROP : FADE), delay: stagger(110) });
   };
 
   // Layout effect: take over from the CSS pre-hide before the first paint, then assemble.
   useLayoutEffect(() => {
     const svg = svgRef.current;
-    if (!animated || !svg) return;
+    if (!svg) return;
     svg.classList.add("duck-js");
     play();
     return () => {
@@ -128,11 +125,9 @@ export function Hero() {
           </svg>
           <figcaption className="mt-2 flex flex-wrap items-center justify-between gap-3 text-sm text-muted-foreground">
             <span>Утка на колёсиках — одна из первых игрушек мастерской (1935), пересобранная из кирпичиков. Нажмите на шаг, чтобы собрать её по частям.</span>
-            {animated && (
-              <button type="button" onClick={play} className="shrink-0 rounded-md border-2 border-border bg-card px-3 py-1.5 font-semibold text-foreground hover:bg-muted">
-                Собрать ещё раз
-              </button>
-            )}
+            <button type="button" onClick={play} className="shrink-0 rounded-md border-2 border-border bg-card px-3 py-1.5 font-semibold text-foreground hover:bg-muted">
+              Собрать ещё раз
+            </button>
           </figcaption>
         </figure>
       </div>

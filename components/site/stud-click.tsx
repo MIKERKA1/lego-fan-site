@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { createTimeline, type Timeline } from "animejs";
 import { useMotionOk } from "@/lib/use-motion-ok";
 
@@ -17,20 +17,27 @@ export function StudClick() {
     const el = root.current;
     if (!el) return;
     tl.current?.revert();
-    tl.current = createTimeline()
-      .add(el.querySelector(".top")!, { translateY: { from: -80, to: 0 }, duration: 520, ease: "inQuad" })
-      .add(el.querySelector(".top")!, { scaleY: [1, 0.94, 1], duration: 260, ease: "outQuad" })
-      .add(el.querySelectorAll(".stud"), { fill: ["#FFFFFF", "#F2CD37"], duration: 400, ease: "outQuad" }, "<<")
-      .add(el.querySelector(".click")!, { opacity: [0, 1, 1, 0], scale: [0.6, 1.15, 1, 1], duration: 900, ease: "outBack(2)" }, "<<");
+    const top = el.querySelector(".top")!;
+    // Reduced motion: the upper brick fades in on top, no travel or squash.
+    tl.current = canAnimate
+      ? createTimeline()
+          .add(top, { translateY: { from: -80, to: 0 }, duration: 520, ease: "inQuad" })
+          .add(top, { scaleY: [1, 0.94, 1], duration: 260, ease: "outQuad" })
+          .add(el.querySelectorAll(".stud"), { fill: ["#FFFFFF", "#F2CD37"], duration: 400, ease: "outQuad" }, "<<")
+          .add(el.querySelector(".click")!, { opacity: [0, 1, 1, 0], scale: [0.6, 1.15, 1, 1], duration: 900, ease: "outBack(2)" }, "<<")
+      : createTimeline().add(top, { opacity: { from: 0, to: 1 }, duration: 500, ease: "linear" });
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = root.current;
-    if (!el || !canAnimate) return;
-    // Only start when the callout is actually on screen.
+    if (!el) return;
+    // Show the start pose (bricks apart) right away; otherwise the joined SSR pose sits on screen until
+    // the threshold is reached and then jumps apart — on a phone that reads as "already connected".
+    play();
+    tl.current?.pause().seek(0);
     const io = new IntersectionObserver(([e]) => {
       if (e.isIntersecting) {
-        play();
+        tl.current?.play();
         io.disconnect();
       }
     }, { threshold: 0.6 });
@@ -39,7 +46,7 @@ export function StudClick() {
       io.disconnect();
       tl.current?.revert();
     };
-     
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [canAnimate]);
 
   return (
@@ -62,11 +69,9 @@ export function StudClick() {
           щёлк!
         </text>
       </svg>
-      {canAnimate && (
-        <button type="button" onClick={play} className="w-fit rounded-md border-2 border-border bg-card px-3 py-1.5 text-sm font-semibold hover:bg-muted">
-          Соединить ещё раз
-        </button>
-      )}
+      <button type="button" onClick={play} className="w-fit rounded-md border-2 border-border bg-card px-3 py-1.5 text-sm font-semibold hover:bg-muted">
+        Соединить ещё раз
+      </button>
     </div>
   );
 }
